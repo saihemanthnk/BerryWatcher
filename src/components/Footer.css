@@ -1,0 +1,123 @@
+/** footer **/
+
+
+/* footer{
+    margin-top: 16px;
+} */
+
+
+/* .footer-back{
+
+    height:60px;
+    background-color: #37475a;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:0.85rem;
+
+
+} */
+
+
+
+
+.footer-back form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-back input[type="file"] {
+    margin-right: 10px; /* Add some space between file input and submit button */
+  }
+  
+  .footer-back input[type="submit"] {
+    padding: 8px 8px; /* Adjust padding to make the button larger */
+    background-color:orange; /* Change button color */
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1rem; /* Increase font size */
+    border-radius: 0.4rem;
+  }
+  
+  .footer-back input[type="submit"]:hover {
+    background-color: orange; /* Change button color on hover */
+    color: black;
+  }
+
+.foot-panel2{
+    
+    background-color:#222f3d;
+    color:white;
+    height:250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 30px;
+
+
+}
+
+
+
+
+
+.foot-panel2 a{
+    display: block;
+    font-size:0.85rem;
+    margin-top: 10px;
+    color: #DDDDDD;
+    text-decoration: none;
+}
+
+.foot-panel3{
+
+    background-color:#222f3d;
+    border-top:1px solid white;
+    height:70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+
+
+
+}
+
+.foot-logo{
+    background-image: url('../images/blogg-removebg-preview.png');
+    background-size: cover;
+    height:50px;
+    width:110px;
+  
+}
+
+
+.foot-panel4{
+    height: 78px;
+    background-color: #0f1111;
+    color:#DDDDDD;
+    display: block;
+    padding: 35px;
+  
+}
+
+.pages{
+    font-size: 0.85rem;
+    text-align: center;
+    
+
+}
+
+.pages a{
+
+    text-decoration: none;
+    color: #DDDDDD;
+}
+
+.copy{
+    font-size:0.7rem;
+    padding: 10px;
+     text-align: center;
+}

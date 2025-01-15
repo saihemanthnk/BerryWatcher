@@ -1,0 +1,105 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .section-content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .card {
+    max-width: 520px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    flex-basis: 48%;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s ease-in-out;
+    
+  }
+  
+  input:hover {
+    border-color: #007bff;
+  }
+  
+  button {
+
+    width: 100%;
+    background-color: orange;
+    color: black;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    font-weight: 300;
+    font-size: medium;
+  }
+  
+  button:hover {
+    background-color: rgb(239, 164, 25);
+    color: white;
+  }
+  
+  .text-center {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .mt-4 {
+    margin-top: 1.5rem;
+  }
+  
+  .mt-4 a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .mt-4 a:hover {
+    text-decoration: underline;
+  }
+
+  .invalid-input{
+    border: 1px solid red;
+    background-color: rgb(248, 170, 141)
+
+  }
+
+  .error-message{
+    margin-top: 5px;
+    color:red;
+  }
+  
+  
+  

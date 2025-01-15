@@ -1,0 +1,166 @@
+.navbar{
+    height:60px;
+    background-color: #0f1111;
+    color:white;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+   
+}
+
+.nav-logo{
+    height: 60px;
+    width:130px;
+
+}
+
+ .logo{
+    background-image: url('../images/blogg-removebg-preview.png');
+    background-size: cover;
+    height:50px;
+    width:100%;
+}
+
+.border{
+    border:2px solid transparent;
+}
+
+.border:hover{
+    border:1.5px solid white;
+}
+
+/** box2 **/
+#add-first{
+    font-size: 0.85rem;
+    color:#CCCCCC;
+    margin-left: 15px; 
+
+}
+
+#add-second{
+    font-size:1rem;
+    color:#ffffff;
+    margin-left: 3px;
+}
+
+.add-icon{
+    display: flex;
+    align-items:center;
+}
+
+/** box3 **/
+
+.nav-search{
+    display:flex;
+    width:600px;
+    /* background-color: orange; */
+    background-color: pink;
+    height:32px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+ 
+}
+
+.search-select{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color:#E6E6E6;
+    width:50px;
+    text-align: center;
+    border:none;
+    
+}
+
+.search-input{
+    text-align:center;
+    width:100%;
+    font-size:1rem;
+    border:none;
+}
+
+.search-icon{
+    width:45px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:#0f1111;
+}
+
+.nav-search:hover{
+    border:2px solid orange;
+}
+
+/** Box 4 **/
+
+span{
+    font-size: 0.7rem;
+    color:#ffffff ;
+}
+
+
+.nav-second{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+/** Box5 **/
+
+
+.nav-cart i{
+  font-size: 30px;
+
+}
+
+.nav-cart{
+    font-size: 0.8rem;
+}
+
+/** sec **/
+
+.panel{
+    
+    height:40px;
+    background-color: #222f3d;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+ .panel-items{
+    display: flex;
+    justify-content: space-around;
+    width:70%;
+    
+}
+
+.panel-items a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.panel-deals{
+    font-weight: 700px;
+   
+}
+
+.panel-select{
+    padding: 2px;
+    border-radius:4px;
+}
+
+
+.nav-signin a{
+    text-decoration: none;
+}
+
+.nav-login a{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color:white
+}
+

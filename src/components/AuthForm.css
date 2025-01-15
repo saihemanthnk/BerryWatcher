@@ -1,0 +1,12 @@
+.footer-back{
+
+    height:60px;
+    background-color: #37475a;
+    color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:0.85rem;
+
+
+}
